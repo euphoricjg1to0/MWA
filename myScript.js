@@ -52,11 +52,11 @@ const virtualPet = {
     updateImage: function() {
         let imageUrl = '';
         if (this.type === "cat") {
-            imageUrl = '/images/cat.jpg';  // Replace with the actual image URL
+            imageUrl = './images/cat.jpg';  // Replace with the actual image URL
         } else if (this.type === "big cat") {
-            imageUrl = '/images/big cat.jpg';  // Replace with the actual image URL
+            imageUrl = './images/big cat.jpg';  // Replace with the actual image URL
         } else {
-            imageUrl = '/images/baby cat.jpg';  // Replace with the default dragon image URL
+            imageUrl = './images/baby cat.jpg';  // Replace with the default dragon image URL
         }
         document.getElementById('petImage').innerHTML = `<img src="${imageUrl}" alt="${this.type}">`;
     }
