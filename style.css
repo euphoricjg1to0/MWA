@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:pink;
+    margin-top: 50px;
+}
+.pet-status {
+    margin-bottom: 20px;
+}
+.pet-image img{
+    max-width: 200px;
+    height: auto;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: rgb(219, 255, 203);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+p {
+    color: rgb(74, 61, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+footer {
+    background-color: rgb(168, 171, 223);
+    height: 50px;
+    
+}
