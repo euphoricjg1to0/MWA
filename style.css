@@ -30,6 +30,7 @@ p {
 }
 
 footer {
+    padding: 2rem;
     background-color: rgb(168, 171, 223);
     height: 50px;
     
